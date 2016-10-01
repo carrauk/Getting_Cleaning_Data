@@ -9,12 +9,12 @@ This is my submission for the assignment for Getting and Cleaning Data course ru
 About Raw Data
 ===============
 
-Details of the source data used is included in the Code Book for this assignment -> [cookbook.md](https://github.com/carrauk/Getting_Cleaning_Data/blob/master/codebook.md) along with links to the raw data used for the assignment.
+Details of the source data used is included in the Code Book for this assignment -> [codebook.md](https://github.com/carrauk/Getting_Cleaning_Data/blob/master/codebook.md) along with links to the raw data used for the assignment.
 
 
 Script Output
 ==============
-This section is duplicated from the Cook Book for this assignment. It is included here to give a quick brief on the "Tidy" data file produced.
+This section is duplicated from the Code Book for this assignment. It is included here to give a quick brief on the "Tidy" data file produced.
 
 The resulting "Tidy" dataset is a summary(mean) of the mean and std values for measurements within the "X" files grouped by activitydescription, subjectid
 
@@ -22,7 +22,7 @@ The columns are:
 
 * activitydescription : Description of the activity the subject was doing at time of taking measurement
 * subjectid            : A number between 1 and 30. Each number representing the subject carrying out the activity
-* The following [64] columns are an average(mean) of the mean() and std() variables, grouped by activitydescription and subjectid for each measurements listed in the "Variables Selected" section of the [Cook Book](https://github.com/carrauk/Getting_Cleaning_Data/blob/master/codebook.md).The resulting variable names are of the following form: meanoffbodygyromeanx, which means the mean value of fBodyGyro-X -> which relates to the X in fBodyGyro-XYZ listed above.
+* The following [64] columns are an average(mean) of the mean() and std() variables, grouped by activitydescription and subjectid for each measurements listed in the "Variables Selected" section of the [Code Book](https://github.com/carrauk/Getting_Cleaning_Data/blob/master/codebook.md).The resulting variable names are of the following form: meanoffbodygyromeanx, which means the mean value of fBodyGyro-X -> which relates to the X in fBodyGyro-XYZ listed above.
 
 The summary is output to file as a table.
 
