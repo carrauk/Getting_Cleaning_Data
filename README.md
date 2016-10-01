@@ -1,10 +1,10 @@
-Assignment for Getting and Cleaning Data course on Coursera
+Assignment for Getting and Cleaning Data course
 ============================================================
 
 Introduction
 ============
 
-This is my submission for the assignment for Getting and Cleaning Data.
+This is my submission for the assignment for Getting and Cleaning Data course run on Coursera (https://www.coursera.org/learn/data-cleaning/).
 
 About Raw Data
 ===============
