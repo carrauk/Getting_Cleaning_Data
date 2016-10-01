@@ -9,7 +9,7 @@ This is my submission for the assignment for Getting and Cleaning Data course ru
 About Raw Data
 ===============
 
-Details of the source data used is included in the Cook Book for this assignment -> [cookbook.md](https://github.com/carrauk/Getting_Cleaning_Data/blob/master/codebook.md) along with links to the raw data used for the assignment.
+Details of the source data used is included in the Code Book for this assignment -> [cookbook.md](https://github.com/carrauk/Getting_Cleaning_Data/blob/master/codebook.md) along with links to the raw data used for the assignment.
 
 
 Script Output
