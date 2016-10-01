@@ -26,7 +26,7 @@ Variables Selected
 
 The variables selected for this dataset is based on the requirements for the assignment for week 4 of the Coursera - Getting and Cleaning Data course [https://www.coursera.org/learn/data-cleaning/peer/FIZtT/getting-and-cleaning-data-course-project].
 
-The assignment required the creation of a script called 'r_analysis.R' that does the following:
+The assignment required the creation of a script called 'run_analysis.R' that does the following:
 
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement.
