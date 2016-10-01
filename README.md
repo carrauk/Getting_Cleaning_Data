@@ -9,7 +9,7 @@ This is my submission for the assignment for Getting and Cleaning Data course ru
 About Raw Data
 ===============
 
-Details of the source data used is included in the Cook Book for this assignment[cookbook.md](https://github.com/carrauk/Getting_Cleaning_Data/blob/master/codebook.md) along with links to the raw data used.
+Details of the source data used is included in the Cook Book for this assignment -> [cookbook.md](https://github.com/carrauk/Getting_Cleaning_Data/blob/master/codebook.md) along with links to the raw data used for the assignment.
 
 
 Script Output
@@ -36,10 +36,12 @@ Instruction List/Script
 Below are the instructions for running the script to produce the output detailed in section Script Output.
 
 Pre-requisite:
+
 * Install the following packages: readr (version 1.0.0 or above), dplyr (version 0.5.0 or above)
 * Created on a Mac OS X environment - so you may need to check paths if running on windows environments.
 
 Steps:
+
 1. Download the data from the data source defined in the Data Source section of this document.
 2. Extract and place in a local directory - now referenced as [DataFolder] e.g. "~/data/UCI HAR Dataset"
 3. Download the 'run_analysis.R' script - now referenced as [Script]
