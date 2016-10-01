@@ -127,7 +127,7 @@ processSubjectFile <- function(inFile){
 # Process the data files
 # Loads the files and does some work setting varaible names and joining description varibles when required.
 
-# raw data
+# loaded data
 data.x.test <- process561VariableDataFile(src.x.test, src.x.labels)
 data.x.train <- process561VariableDataFile(src.x.train, src.x.labels)
 

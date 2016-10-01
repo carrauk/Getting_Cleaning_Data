@@ -1,4 +1,4 @@
-CodeBook for the tidy dataset
+CodeBook for assignment
 =============================
 
 Data source
