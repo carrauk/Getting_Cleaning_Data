@@ -86,7 +86,7 @@ processActivityDataFile <- function(inFile, descFile){
                                    )             
                 )
   
-                data <- data  %>% mutate(activity_description = tolower(activity_description))
+                data <- data  %>% mutate(activity_description = tolower(gsub("_", "", activity_description)))
                 
                 return(data)
         }
@@ -162,7 +162,7 @@ data.smy.by_activity_subject <-
 # 2. remove the [()_] characters from column names
 # 3. make activity description lowercase (done while processing files)
 
-names(data.smy.by_activity_subject) <- sub("[0-9]*_", "meanof", names(data.smy.by_activity_subject))
+names(data.smy.by_activity_subject) <- sub("^[0-9]*_", "meanof", names(data.smy.by_activity_subject))
 names(data.smy.by_activity_subject) <- gsub("[()_]", "", names(data.smy.by_activity_subject))
         
 # Output the summary to a txt file
