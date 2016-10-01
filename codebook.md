@@ -2,7 +2,7 @@ CodeBook for the tidy dataset
 =============================
 
 Data source
------------
+===========
 
 This dataset is derived from a dataset referenced from the Coursera - Getting and Cleaning Data course assignment page [https://www.coursera.org/learn/data-cleaning/peer/FIZtT/getting-and-cleaning-data-course-project]. This dataset is derived from the "Human Activity Recognition Using Smartphones Data Set" which was originally made avaiable here: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 Feature Selection. 
@@ -22,7 +22,7 @@ For more information refer to the README.txt and features_info.txt within the da
 
 
 Variables Selected
------------------
+==================
 
 The variables selected for this dataset is based on the requirements for the assignment for week 4 of the Coursera - Getting and Cleaning Data course [https://www.coursera.org/learn/data-cleaning/peer/FIZtT/getting-and-cleaning-data-course-project].
 
@@ -78,7 +78,7 @@ Notes:
 * I made a choice to exclude the angle() variables as I believe they are calculated based on averages of other measurements so I believe they do not represent a mean/std of a measurement. 
 
 Script Output
---------------
+==============
 The resulting "Tidy" dataset is a summary(mean) of the mean and std values for measurements within the "X" files grouped by activitydescription, subjectid
 
 The columns are:

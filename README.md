@@ -20,7 +20,7 @@ The resulting "Tidy" dataset is a summary(mean) of the mean and std values for m
 
 The columns are:
 
-* activity_description : Description of the activity the subject was doing at time of taking measurement
+* activitydescription : Description of the activity the subject was doing at time of taking measurement
 * subjectid            : A number between 1 and 30. Each number representing the subject carrying out the activity
 * The following [64] columns are an average(mean) of the mean() and std() variables, grouped by activitydescription and subjectid for each measurements listed in the "Variables Selected" section of the [Cook Book](https://github.com/carrauk/Getting_Cleaning_Data/blob/master/codebook.md).The resulting variable names are of the following form: meanoffbodygyromeanx, which means the mean value of fBodyGyro-X -> which relates to the X in fBodyGyro-XYZ listed above.
 
